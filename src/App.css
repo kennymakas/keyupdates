@@ -1,17 +1,36 @@
-.App {
-  font-family: Arial, sans-serif;
+
+.footer {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
   max-width: 600px;
   margin: 0 auto;
-  padding: 20px;
 }
 
-input, textarea, button {
-  display: block;
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 8px;
+.footer-content p {
+  margin: 0;
+  font-size: 0.9rem;
 }
 
-textarea {
-  resize: vertical;
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
 }
