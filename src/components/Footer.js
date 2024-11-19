@@ -1,15 +1,25 @@
+// src/components/Footer.js
 import React from 'react';
-import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="footer-content">
-        <p>&copy; 2024 Keyupdates. All rights reserved.</p>
-        <div className="social-links">
-          <a href="#facebook" target="_blank" rel="noopener noreferrer">Facebook</a>
-          <a href="#twitter" target="_blank" rel="noopener noreferrer">Twitter</a>
-          <a href="#instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
+    <footer className="bg-dark text-white text-center py-3">
+      <div className="container">
+        {/* Social Media Links */}
+        <div className="social-media">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="mx-2 text-white">
+            <i className="fab fa-facebook-f"></i> Facebook
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="mx-2 text-white">
+            <i className="fab fa-twitter"></i> Twitter
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="mx-2 text-white">
+            <i className="fab fa-instagram"></i> Instagram
+          </a>
+        </div>
+        {/* Footer Text */}
+        <div className="mt-3">
+          <p>&copy; 2024 KeyUpdates. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
