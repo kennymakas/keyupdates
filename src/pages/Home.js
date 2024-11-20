@@ -12,6 +12,7 @@ const Home = () => {
       const apiKey = 'a2cad3d938cf46709a3a0b7cfac78b71'; // Your NewsAPI key
 
       try {
+       
         const response = await axios.get(
           `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`
         );
