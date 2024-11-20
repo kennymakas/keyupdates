@@ -7,7 +7,7 @@ import Home from './pages/Home';
 import CampusNews from './pages/CampusNews';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Newscomponent from './components/Newscomponent'
+import Newscomponent from './pages/Newscomponent'
 
 const App = () => {
   return (
