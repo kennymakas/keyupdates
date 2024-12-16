@@ -7,6 +7,10 @@ import Home from './pages/Home';
 import CampusNews from './pages/CampusNews';
 import About from './pages/About';
 import Contact from './pages/Contact';
+<<<<<<< HEAD
+=======
+import Newscomponent from './pages/Newscomponent'
+>>>>>>> 255e76c54f28f13c8d7aa25f83c08586e2037130
 
 const App = () => {
   return (
