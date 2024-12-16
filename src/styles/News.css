@@ -1,0 +1,120 @@
+
+.container {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* News card styling */
+  .card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-footer .btn {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .card-footer .btn:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Loading spinner styling */
+  .spinner-border {
+    width: 3rem;
+    height: 3rem;
+    border-width: 0.4em;
+    margin: auto;
+    display: block;
+    color: #007bff;
+  }
+  
+  /* Error message */
+  .text-danger {
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Social media share buttons */
+  .social-share {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-share button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .social-share button.btn-info {
+    background-color: #00acee;
+  }
+  
+  .social-share button.btn-info:hover {
+    background-color: #0084b4;
+  }
+  
+  .social-share button.btn-primary {
+    background-color: #3b5998;
+  }
+  
+  .social-share button.btn-primary:hover {
+    background-color: #2d4373;
+  }
+  
