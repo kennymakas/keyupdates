@@ -7,10 +7,7 @@ import Home from './pages/Home';
 import CampusNews from './pages/CampusNews';
 import About from './pages/About';
 import Contact from './pages/Contact';
-<<<<<<< HEAD
-=======
-import Newscomponent from './pages/Newscomponent'
->>>>>>> 255e76c54f28f13c8d7aa25f83c08586e2037130
+import Newscomponent from './pages/Newscomponent'; // Ensure proper import
 
 const App = () => {
   return (
@@ -22,6 +19,7 @@ const App = () => {
           <Route path="/campus-news" element={<CampusNews />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/news" element={<Newscomponent />} /> {/* Added route for Newscomponent */}
         </Routes>
       </div>
       <Footer />
